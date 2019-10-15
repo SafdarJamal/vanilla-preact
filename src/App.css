@@ -1,0 +1,13 @@
+.app {
+  margin: 0;
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #61dafb;
+}
