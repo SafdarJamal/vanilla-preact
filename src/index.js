@@ -5,7 +5,7 @@ import {
 import htm from 'https://unpkg.com/htm@2.2.1/dist/htm.module.js';
 window.html = htm.bind(h);
 
-import App from './App.js';
+import App from './components/App.js';
 
 render(
   html`

@@ -1,8 +1,8 @@
 import { Component } from 'https://unpkg.com/preact@10.0.0/dist/preact.module.js';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       input: '',
@@ -20,7 +20,7 @@ class App extends Component {
   onSubmit(e) {
     e.preventDefault();
 
-    doSearch(this.state.input).then(hits => this.setState({ list: hits }));
+    this.doSearch(this.state.input).then(hits => this.setState({ list: hits }));
   }
 
   async doSearch(query) {
@@ -35,22 +35,25 @@ class App extends Component {
     const { input, list } = this.state;
 
     return html`
-      <div>
-        <h1>Search Hacker News with Preact</h1>
+      <div class="app">
+        <h1>Search Hacker News</h1>
         <form type="submit" onSubmit=${this.onSubmit}>
-          <input type="text" onChange=${this.onChange} value=${input} />
-          <button type="text">Search</button>
+          <input
+            type="text"
+            value=${input}
+            onChange=${this.onChange}
+            placeholder="Search..."
+          />
+          <button type="submit">Submit</button>
         </form>
         <br />
         ${list.map(
           item =>
             html`
-              <div key=${item.objectID}>
+              <div class="item">
                 <a href=${item.url} target="_blank" rel="noopener noreferrer">
                   ${item.title}
                 </a>
-                <hr />
-                <br />
               </div>
             `
         )}

@@ -1,5 +1,4 @@
 .app {
-  margin: 0;
   background-color: #282c34;
   text-align: center;
   color: white;
@@ -8,6 +7,17 @@
   flex-direction: column;
 }
 
+.item {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 a {
   color: #61dafb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
