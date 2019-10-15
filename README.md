@@ -31,4 +31,4 @@ http-server
 
 ## License
 
-This is an open source software [licensed as MIT](https://github.com/SafdarJamal/hacker-news/blob/master/LICENSE).
+This is an open source software [licensed as MIT](https://github.com/SafdarJamal/vanilla-preact/blob/master/LICENSE).
