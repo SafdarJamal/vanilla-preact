@@ -13,7 +13,7 @@ cd vanilla-preact
 
 Finally, you need to start a local web server:
 
-[Download Web Server for Chrome Extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
+[Download Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 
 OR
 
@@ -23,7 +23,7 @@ Install `http-server` globally:
 npm install http-server -g
 ```
 
-and run this command:
+This will install `http-server` globally so that it may be run from the command line.
 
 ```
 http-server
