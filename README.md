@@ -2,6 +2,10 @@
 
 Vanilla Preact is a barebones starter kit for building preact applications without build or tooling
 
+<p>
+  <img alt="Preact App in Action" src="https://user-images.githubusercontent.com/48409548/68116449-ad1c7000-ff1c-11e9-8995-0024ceda681a.png">
+</p>
+
 ## Development
 
 To get a local copy of the code, clone it using git:
