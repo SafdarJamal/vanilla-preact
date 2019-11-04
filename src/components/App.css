@@ -7,6 +7,34 @@
   flex-direction: column;
 }
 
+form {
+  margin-bottom: 2rem;
+}
+
+[type='text'],
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: 2px solid #007bff;
+  margin: 0 0.5rem;
+}
+
+[type='text']:active,
+[type='text']:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+}
+
 .item {
   margin-top: 16px;
   margin-bottom: 16px;

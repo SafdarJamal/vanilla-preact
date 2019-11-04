@@ -9,15 +9,15 @@ class App extends Component {
       list: []
     };
 
-    this.onChange = this.onChange.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  onChange(e) {
+  handleChange(e) {
     this.setState({ input: e.target.value });
   }
 
-  onSubmit(e) {
+  handleSubmit(e) {
     e.preventDefault();
 
     this.doSearch(this.state.input).then(hits => this.setState({ list: hits }));
@@ -36,17 +36,16 @@ class App extends Component {
 
     return html`
       <div class="app">
-        <h1>Search Hacker News</h1>
-        <form type="submit" onSubmit=${this.onSubmit}>
+        <h1>Hacker News</h1>
+        <form type="submit" onSubmit=${this.handleSubmit}>
           <input
             type="text"
             value=${input}
-            onChange=${this.onChange}
+            onChange=${this.handleChange}
             placeholder="Search..."
           />
           <button type="submit">Submit</button>
         </form>
-        <br />
         ${list.map(
           item =>
             html`
