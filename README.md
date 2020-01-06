@@ -3,7 +3,7 @@
 Vanilla Preact is a barebones starter kit for building preact applications without build or tooling
 
 <p>
-  <img alt="Preact App in Action" src="https://user-images.githubusercontent.com/48409548/68116449-ad1c7000-ff1c-11e9-8995-0024ceda681a.png">
+  <img alt="Preact App in Action" src="https://user-images.githubusercontent.com/48409548/71832024-dd72bd00-30cb-11ea-8f12-75451f5f8950.png">
 </p>
 
 ## Development
@@ -35,4 +35,4 @@ http-server
 
 ## License
 
-This is an open source software [licensed as MIT](https://github.com/SafdarJamal/vanilla-preact/blob/master/LICENSE).
+Vanilla Preact App is open source software [licensed as MIT](https://github.com/SafdarJamal/vanilla-preact/blob/master/LICENSE).
