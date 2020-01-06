@@ -42,9 +42,9 @@ class App extends Component {
             type="text"
             value=${input}
             onChange=${this.handleChange}
-            placeholder="Search..."
+            placeholder="search hacker news"
           />
-          <button type="submit">Submit</button>
+          <button type="submit">Search</button>
         </form>
         ${list.map(
           item =>
