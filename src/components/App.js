@@ -1,8 +1,8 @@
 import { Component } from 'https://unpkg.com/preact@10.0.0/dist/preact.module.js';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       input: '',
