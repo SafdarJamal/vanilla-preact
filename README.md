@@ -33,6 +33,14 @@ This will install `http-server` globally so that it may be run from the command 
 http-server
 ```
 
+OR 
+
+Python SimpleHTTPServer in the `src` directory
+
+```
+python -m SimpleHTTPServer 8100
+```
+
 ## License
 
 Vanilla Preact App is open source software [licensed as MIT](https://github.com/SafdarJamal/vanilla-preact/blob/master/LICENSE).
