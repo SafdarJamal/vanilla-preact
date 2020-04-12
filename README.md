@@ -30,15 +30,17 @@ npm install http-server -g
 This will install `http-server` globally so that it may be run from the command line.
 
 ```
+cd src
 http-server
 ```
 
-OR 
+OR
 
-Python SimpleHTTPServer in the `src` directory
+Use Python's `SimpleHTTPServer`:
 
 ```
-python -m SimpleHTTPServer 8100
+cd src
+python -m SimpleHTTPServer
 ```
 
 ## License
