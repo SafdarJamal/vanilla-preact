@@ -1,4 +1,4 @@
-import { Component } from 'https://unpkg.com/preact@10.3.4/dist/preact.module.js';
+import { Component } from 'https://unpkg.com/preact@10.4.0/dist/preact.module.js';
 
 class App extends Component {
   constructor(props) {
