@@ -40,22 +40,24 @@ class App extends Component {
         <form type="submit" onSubmit=${this.handleSubmit}>
           <input
             type="text"
+            placeholder="Enter your search term"
             value=${input}
             onChange=${this.handleChange}
-            placeholder="Enter your search term"
           />
           <button type="submit">Search</button>
         </form>
-        ${list.map(
-          item =>
-            html`
-              <div class="item">
-                <a href=${item.url} target="_blank" rel="noopener noreferrer">
-                  ${item.title}
-                </a>
-              </div>
-            `
-        )}
+        <div>
+          ${list.map(
+            item =>
+              html`
+                <div class="item">
+                  <a href=${item.url} target="_blank" rel="noopener noreferrer">
+                    ${item.title}
+                  </a>
+                </div>
+              `
+          )}
+        </div>
       </div>
     `;
   }
