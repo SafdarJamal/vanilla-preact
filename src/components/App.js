@@ -42,7 +42,7 @@ class App extends Component {
             type="text"
             value=${input}
             onChange=${this.handleChange}
-            placeholder="search hacker news"
+            placeholder="Enter your search term"
           />
           <button type="submit">Search</button>
         </form>
