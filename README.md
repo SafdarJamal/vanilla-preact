@@ -1,4 +1,8 @@
-# Vanilla Preact App
+<h1>
+  <a href="https://vanilla-preact.surge.sh">
+    Vanilla Preact App
+  </a>
+</h1>
 
 Vanilla Preact is a barebones starter kit for building preact applications without build or tooling.
 
@@ -15,7 +19,7 @@ git clone https://github.com/SafdarJamal/vanilla-preact.git
 cd vanilla-preact
 ```
 
-Finally, you need to start a local web server:
+Now, you need to start a local web server:
 
 [Download Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 
@@ -27,7 +31,7 @@ Install `http-server` globally:
 npm install http-server -g
 ```
 
-This will install `http-server` globally so that it may be run from the command line.
+This will install `http-server` globally so that it may be run from the command line anywhere.
 
 ```
 cd src
@@ -43,6 +47,14 @@ cd src
 python -m SimpleHTTPServer
 ```
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+## Support
+
+Give a ⭐️ if this project helped you!
+
 ## License
 
-Vanilla Preact App is open source software [licensed as MIT](https://github.com/SafdarJamal/vanilla-preact/blob/master/LICENSE).
+Licensed under the [MIT License](https://github.com/SafdarJamal/vanilla-preact/blob/master/LICENSE).
