@@ -1,10 +1,6 @@
-<h1>
-  <a href="https://vanilla-preact.surge.sh">
-    Vanilla Preact App
-  </a>
-</h1>
+# Vanilla Preact
 
-Vanilla Preact is a barebones starter kit for building preact applications without build or tooling.
+Vanilla Preact is a barebones starter kit for building [Preact](https://preactjs.com) applications without build or tooling.
 
 <p>
   <img alt="Preact App in Action" src="https://user-images.githubusercontent.com/48409548/71832024-dd72bd00-30cb-11ea-8f12-75451f5f8950.png">
