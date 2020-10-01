@@ -3,7 +3,7 @@
 Vanilla Preact is a barebones starter kit for building [Preact](https://preactjs.com) applications without build or tooling.
 
 <p>
-  <img alt="Preact App in Action" src="https://user-images.githubusercontent.com/48409548/71832024-dd72bd00-30cb-11ea-8f12-75451f5f8950.png">
+  <img alt="Preact App in Action" src="https://user-images.githubusercontent.com/48409548/94811421-c8367f00-040e-11eb-94d3-b3f69e649cad.png">
 </p>
 
 ## Development
@@ -15,7 +15,21 @@ git clone https://github.com/SafdarJamal/vanilla-preact.git
 cd vanilla-preact
 ```
 
-Now, you need to start a local web server:
+Make it your own:
+
+```
+rm -rf .git && git init
+git add .
+git commit -m "Initial commit"
+```
+
+Go inside `src` directory:
+
+```
+cd src
+```
+
+Now, you need to start a local web server. The easiest way to do this is to use any of the following options:
 
 [Download Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 
@@ -30,7 +44,6 @@ npm install http-server -g
 This will install `http-server` globally so that it may be run from the command line anywhere.
 
 ```
-cd src
 http-server
 ```
 
@@ -39,7 +52,6 @@ OR
 Use Python's `SimpleHTTPServer`:
 
 ```
-cd src
 python -m SimpleHTTPServer
 ```
 
