@@ -1,6 +1,10 @@
-# Vanilla Preact
+<h1 align="center">
+  Vanilla Preact
+</h1>
 
-Vanilla Preact is a barebones starter kit for building [Preact](https://preactjs.com) applications without build or tooling.
+<p align="center">
+  Vanilla Preact is a barebones starter kit for building <a href='https://preactjs.com">Preact</a> applications without build or tooling.
+</p>
 
 <p>
   <img alt="Preact App in Action" src="https://user-images.githubusercontent.com/48409548/94811421-c8367f00-040e-11eb-94d3-b3f69e649cad.png">
