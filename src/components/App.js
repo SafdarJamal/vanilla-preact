@@ -1,4 +1,4 @@
-import { Component } from 'https://unpkg.com/preact@10.4.8/dist/preact.module.js';
+import { Component } from 'https://unpkg.com/preact@10.6.4/dist/preact.module.js';
 
 class App extends Component {
   constructor(props) {
@@ -6,7 +6,7 @@ class App extends Component {
 
     this.state = {
       input: '',
-      list: []
+      list: [],
     };
 
     this.handleChange = this.handleChange.bind(this);
